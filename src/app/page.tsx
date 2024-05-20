@@ -30,9 +30,9 @@ async function Images() {
 
 export default async function HomePage() {
   return (
-    <main className="">
+    <main className="flex justify-center items-center min-h-screen">
       <SignedOut>
-        <div className="h-full w-full text-center text-2xl">
+        <div className=" h-full w-full text-center  text-3xl">
           Please sign in above
         </div>
       </SignedOut>
